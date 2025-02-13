@@ -4,9 +4,15 @@
 
 ---
 
+## Play the Game
+
+You can try the game directly here: [Rock Paper Scissors](https://kyusuku.github.io/rock-paper-scissors/)
+
+---
+
 ## How to Play
 
-1. Open the **index.html** file in a web browser.
+1. Open the game using the link above.
 2. When the first prompt appears, **click "Cancel"** to close it.
 3. Open the **Developer Tools**:
    - **Windows/Linux:** Press `Ctrl + Shift + I` or `F12`
