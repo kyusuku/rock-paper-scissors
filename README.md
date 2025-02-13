@@ -4,25 +4,24 @@
 
 ---
 
-## Play the Game
-
-You can try the game directly here: [Rock Paper Scissors](https://kyusuku.github.io/rock-paper-scissors/)
-
----
-
 ## How to Play
 
-1. Open the game using the link above.
-2. When the first prompt appears, **click "Cancel"** to close it.
-3. Open the **Developer Tools**:
+1. When the first prompt appears, **click "Cancel"** to close it.
+2. Open the **Developer Tools**:
    - **Windows/Linux:** Press `Ctrl + Shift + I` or `F12`
    - **Mac:** Press `Cmd + Option + I`
    - Or, right-click anywhere on the page and select **Inspect** → Navigate to the **Console** tab.
-4. **Reload the page** (`Ctrl + R` or `Cmd + R`) to restart the game.
-5. The game will prompt you to enter **Rock**, **Paper**, or **Scissors**.
-6. The computer will randomly choose one of the three options.
-7. The result of each round will be displayed in the **console**.
-8. The game consists of five rounds, and the final score will also be displayed in the **console**.
+3. **Reload the page** (`Ctrl + R` or `Cmd + R`) to restart the game.
+4. The game will prompt you to enter **Rock**, **Paper**, or **Scissors**.
+5. The computer will randomly choose one of the three options.
+6. The result of each round will be displayed in the **console**.
+7. The game consists of five rounds, and the final score will also be displayed in the **console**.
+
+---
+
+## Play the Game
+
+You can try the game directly here: [Rock Paper Scissors](https://kyusuku.github.io/rock-paper-scissors/)
 
 ---
 
