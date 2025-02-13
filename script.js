@@ -17,3 +17,22 @@ function getHumanChoice() {
         console.log("Invalid Choice!");
     }
 }
+
+function playRound(humanChoice, computerChoice) {
+    if ((humanChoice === "rock" && computerChoice === "scissors") ||
+        (humanChoice === "paper" && computerChoice === "rock") ||
+        (humanChoice === "scissors" && computerChoice === "paper")) {
+        humanScore++;
+        console.log(`You win! ${humanChoice.charAt(0).toUpperCase() + humanChoice.slice(1)} beats ${computerChoice.charAt(0).toUpperCase() + computerChoice.slice(1)}`);
+    } else if ((computerChoice === "rock" && humanChoice === "scissors") ||
+        (computerChoice === "paper" && humanChoice === "rock") ||
+        (computerChoice === "scissors" && humanChoice === "paper")) {
+        computerScore++;
+        console.log(`You lose! ${computerChoice.charAt(0).toUpperCase() + computerChoice.slice(1)} beats ${humanChoice.charAt(0).toUpperCase() + humanChoice.slice(1)}`);
+    } else {
+        if (humanChoice === "rock" || humanChoice === "paper" || humanChoice === "scissors") {
+            console.log("Draw!");
+        }
+    }
+}
+
